@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pushster&display=swap');
+
+:root{
+    --corBack: #151819;
+    --corBorda: #ED145B; 
+    --corFundo: #1b1e22f3;
+    --corPost: #08090B;
+    --corFont:#91A3AD;
+    --corCalendario: #dce3e77e;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+main{
+    min-width: 400px;
+    max-width: 480px;
+    margin: auto;
+    background-color: var(--corFundo);
+}
+header{
+    border: red solid 5px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: var(--corFont);
+    align-content: center;
+    padding: 10px 10px 20px 0px;
+    background-color: var(--corFundo);
+}
+
+.primeiraDiv{
+    padding: 10px;
+    height: 48px;
+}
+#proximo{
+    height: 48px;
+    width: 48px;
+    float: right;
+}
+
+.perfil{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -40px;
+    padding-left: 180px;
+    
+}
+#logo1{
+    height: 83px;
+    width: 83px;
+    float: left ;
+}
+.avatar1{
+    height: 70px;
+    width: 78.8px;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+}
+
+#avatar2{
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    float: left;  
+}
+
+.avatar03{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    float: left;
+    background-color: white;
+}
+#porFulano{
+    color: var(--corFont);
+    margin-left: 92px;
+}
+#porBeltrano{
+    color: var(--corFont);
+    margin-left: 52px;
+}
+#calendario{
+    font-size: 16px;
+    margin-left: 88px;
+    margin-top: -10px;
+    color: var(--corCalendario);
+}
+#calendario2{
+    
+    margin-left: 47px;
+    margin-top: -15px;
+    color: var(--corCalendario);
+}
+h2{
+    font-weight: bold;
+    color: var(--corFont);
+    padding-top: 20px;
+}
+h3{
+    font-weight: bold;
+    color: var(--corFont);
+    margin: 10px 10px -10px 30px;   
+}
+.postagens{
+    max-height: 763px;
+    max-width: 440px;
+    margin: auto;
+    padding: 20px;
+    border: 20px;
+    line-height: 100%;
+    text-align: left;
+
+    background-color: var(--corFundo);
+}
+
+#descricaoPostagem1{
+    border: 5px solid var(--corBorda);
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    background-color: var(--corFundo);
+    padding-left: 20px;
+}
+
+#descricaoPostagem2{
+    border: 5px solid var(--corBorda);
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    background-color: var(--corPost);
+    padding-left: 20px;
+}
+
+.postagem2{
+    background-color: var(--corFundo);
+    color: var(--corFont);
+
+    padding: 0px;
+}
+
+#textoDoPost{
+    height: 54px;
+    width: 412.6px;
+    margin: auto;
+    border: var(--corBorda);
+    color: var(--corFont);
+}
+
+.imagemDoPost{
+    max-height: 213.33;
+    max-width: 450.28px;
+    margin: auto;
+}
+nav{
+    padding-top: 10px;
+}
+nav > a{
+    font-weight: bold;
+    padding: 5px;
+    color: var(--corFont);
+    background-color: var(--corBack);
+    text-decoration: none;
+}
+nav > :hover{
+    color: var(--corFont);
+    background-color: var(--corBorda);
+    transition: 0.2s;
+    border-radius: 5px;
+}
+.coment01{
+    background-color: var(--corPost);
+    max-height: auto;
+    max-width: 421px;
+    padding: 10px;
+    border: 20px;
+    margin: 20px;
+    line-height: 100%;
+    text-align: left;
+}
+#formulario{
+    width: 919px;
+    padding: 0px 0px 20px 20px;
+}
+
